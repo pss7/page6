@@ -243,7 +243,7 @@ main section{padding: 176px 0 197px!important;}
 #section03::after{content: ''; position: absolute; top:0; left:0; right:0; bottom: 8px; background-color: #fff; z-index: -1;}
 #section03 .infoWrap{display: flex; gap: 100px; justify-content: space-between;}
 #section03 .infoWrap h4{margin-bottom: 38px; padding-left: 36px; position: relative; font-size: 24px; color: #272727;}
-#section03 .infoWrap h4::before{content: ''; position: absolute; top:10px; left:0; width: 20px; height: 20px; background: url(../images/icon1.png)no-repeat;}
+#section03 .infoWrap h4::before{content: ''; position: absolute; top:9px; left:0; padding: 10px; background: url(../images/icon1.png)no-repeat; background-size: 100% auto;}
 #section03 .infoWrap .infoBox ul{margin-left: 7px;}
 #section03 .infoWrap .infoBox ul li{position: relative; margin-bottom: 17px; padding-left: 28px; font-weight: 500; font-size: 14px;}
 #section03 .infoWrap .infoBox ul li::before{content: ''; position: absolute; top:8px; left:0; 
@@ -264,7 +264,7 @@ width: 7px; height: 7px; background-color: #d8e8fc;}
     #section03{padding: 100px 0 150px;}
     #section03 .title01{margin-bottom: 17px;}
     #section03 .infoWrap h4{padding-left: 29px; font-size: 18px;}
-    #section03 .infoWrap h4::before{top: 6px; width: 17px; height: 17px; background-size: cover;}
+    #section03 .infoWrap h4::before{top: 6px; padding: 8px;}
     #section03 .infoWrap .infoBox ul li{padding-left: 23px;}
     #section03 .infoWrap .infoBox ul li::before{width: 6px; height: 6px;}
 
@@ -282,7 +282,7 @@ width: 7px; height: 7px; background-color: #d8e8fc;}
 @media (max-width: 480px){
 
     #section03 .infoWrap h4{padding-left: 25px; font-size: 16px;}
-    #section03 .infoWrap h4::before{width: 14px; height: 14px;}
+    #section03 .infoWrap h4::before{padding: 7px;}
     #section03 .infoWrap .infoBox ul li{padding-left: 19px;}
 
 }
