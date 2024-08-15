@@ -3,6 +3,9 @@
 /* 가운데 영역 */
 .container{max-width: 950px; padding: 0 20px; margin: 0 auto;}
 
+/* 공통 - 기호 */
+em.font{font-family: 'NotoSansKR'; }
+
 /* 공통 - 여백 */
 main section{padding: 176px 0 197px!important;}
 
@@ -25,7 +28,7 @@ main section{padding: 176px 0 197px!important;}
 }
 
 /* 공통 - 타이틀 */
-.title01{font-size: 22px; font-weight: 700; color: #ddcffe; text-align: center; word-break: keep-all;}
+.title01{font-size: 22px; font-weight: 600; color: #ddcffe; text-align: center; word-break: keep-all; font-family: 'Articulatcf';}
 .title02{font-size: 34px; color: #272727; text-align: center;}
 
 @media (max-width: 1024px){
@@ -50,7 +53,7 @@ main section{padding: 176px 0 197px!important;}
 /* 공통 - 버튼 */
 .btn{position: relative; display: flex; align-items: center; justify-content: center; width: 418px; height: 103px;  font-size: 24px; font-weight: 800; color: #fff; background: linear-gradient(to right, #d8e7fc, #ddcffe); margin: 0 auto; text-align: center;}
 .btn::after{content: ''; position: absolute; top:1px; left:1px; right:1px; bottom: 1px; background-color: #fff; }
-.btn span{position: relative; display: flex; align-items: center; justify-content: center; position: relative; width: 93%; height: 76%; background: linear-gradient(to right, #d8e7fc, #ddcffe); z-index: 1; transition: all .5s;}
+.btn span{position: relative; display: flex; align-items: center; justify-content: center; position: relative; width: 93%; height: 76%; background: linear-gradient(to right, #d8e7fc, #ddcffe); z-index: 1; transition: all .5s; font-family: 'Articulatcf'; font-weight: 800;}
 .btn span::before{content: ''; position: absolute; top:0; left:0; bottom: 0; width: 0; background: linear-gradient(to right, #d8e7fc, #ddcffe);}
 .btn:hover span{color: #8970c3;}
 .btn:hover span::before{width: 100%; transition: all .5s; z-index: -1;}
@@ -82,7 +85,7 @@ main section{padding: 176px 0 197px!important;}
 #header .logo h1 a{display: block;}
 #header .logo h1 a img{display: block;}
 #header nav .menu{display: flex; gap: 32px;}
-#header nav .menu li a{padding: 39px 0; display: block; color: #232323; font-size: 16px; font-weight: 400; transition: all .3s;}
+#header nav .menu li a{padding: 39px 0; display: block; color: #232323; font-size: 16px; font-weight: 500; transition: all .3s; font-family: 'Articulatcf';}
 #header nav .menu li a:hover{color: #dbccfe; }
 
 
@@ -113,7 +116,7 @@ main section{padding: 176px 0 197px!important;}
     #header .mobileBtn{display: block;}
     #header .mobileNav{display: block;}
     #header #mobileWrap{display: block; position: fixed; top:0; right:-3000px; bottom: 0; padding: 70px 80px 50px 30px;  background-color: #fff; z-index: 999;}
-    #header #mobileWrap .mobileMenuBox .mobileMenu li a{padding: 10px; display: block; font-size: 16px; color: #dbccfe;}
+    #header #mobileWrap .mobileMenuBox .mobileMenu li a{padding: 10px; display: block; font-size: 16px; color: #dbccfe; font-family: 'Articulatcf'; font-weight: 500;}
 
 }
 
@@ -282,7 +285,7 @@ width: 7px; height: 7px; background-color: #d8e8fc;}
 #section04 .title02{margin-bottom: 60px;}
 #section04 .periodWrap{margin-bottom: 38px; padding: 20px 0; border: 1px solid #e8f1fd; border-width: 1px 0;}
 #section04 .periodWrap span{display: block; margin-bottom: 7px; text-align: center; color: #272727;}
-#section04 .periodWrap em{display: block; text-align: center; font-size: 28px; font-weight: 900; color: #c9e1ff; letter-spacing: -1px;}
+#section04 .periodWrap em{display: block; text-align: center; font-size: 28px; font-weight: 700; color: #c9e1ff; letter-spacing: -1px;}
 #section04 .procedureList{position: relative; margin-bottom: 100px; display: flex; flex-wrap: wrap; gap: 0 4.4%;}
 #section04 .procedureList li{padding-top: 24px; width: 21.7%; height: 162px; border: 1px solid #e8f1fd; text-align: center; line-height: 1;}
 #section04 .procedureList li h4{margin-bottom: 26px; position: relative; padding-top: 46px; font-size: 20px; color: #272727;}
@@ -352,9 +355,11 @@ width: 7px; height: 7px; background-color: #d8e8fc;}
 #section06 .title01{margin-bottom: 35px;}
 #section06 .title02{margin-bottom: 60px;}
 #section06 .questionList{margin-bottom: 110px; display: flex; gap: 28px; flex-wrap: wrap; }
-#section06 .questionList li{padding: 43px 34px 77px 43px; width: 48%; border: 1px solid #ebe2fe; font-size: 14px; letter-spacing: -1px;}
+#section06 .questionList li{padding: 43px 34px 68px 43px; width: 48%; border: 1px solid #ebe2fe; font-size: 13px; letter-spacing: -1px;}
 #section06 .questionList li span{display: block; margin-bottom: 30px; color: #272727;}
-
+#section06 .questionList li p{padding-left: 22px; position: relative; }
+#section06 .questionList li p::after{content: 'A.'; position: absolute; top:0; left:0;}
+#section06 .btn span{font-family: 'NotoSansKR', sans-serif; font-weight: 900;}
 
 @media (max-width: 1024px){
 
@@ -367,6 +372,7 @@ width: 7px; height: 7px; background-color: #d8e8fc;}
     #section06{padding: 100px 0;}
     #section06 .questionList{gap: 28px 4%;}
     #section06 .title01{margin-bottom: 17px;}
+    #section06 .questionList li p br{display: none;}
 
 }
 
@@ -385,7 +391,7 @@ width: 7px; height: 7px; background-color: #d8e8fc;}
 #footer .info span{display: block; position: relative; color: #272727;}
 #footer .info span::after{content: ''; position: absolute; top: 6px; right: -9px; width: 1px; height: 13px; background-color: #272727;}  
 #footer .info span:last-child:after{display: none;}
-#footer .email{text-align: center; color: #dbccfe; line-height: 1;}
+#footer .email{text-align: center; color: #dbccfe; line-height: 1;  font-family: 'Articulatcf'; letter-spacing: 1px; font-size: 14px;}
 
 @media (max-width: 576px){
 

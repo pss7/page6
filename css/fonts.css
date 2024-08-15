@@ -40,8 +40,46 @@
 @font-face {
     font-family: 'Articulatcf';
     font-style: normal;
+    font-weight: 600;
+    src: url(fonts/Articulatcf-demibold.woff2) format('woff2'),
+        url(fonts/Articulatcf-demibold.woff) format('woff'),
+        url(fonts/Articulatcf-demibold.otf) format('opentype');
+}
+
+
+@font-face {
+    font-family: 'Articulatcf';
+    font-style: normal;
+    font-weight: 800;
+    src: url(fonts/Articulatcf-extrabold.woff2) format('woff2'),
+        url(fonts/Articulatcf-extrabold.woff) format('woff'),
+        url(fonts/Articulatcf-extrabold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Articulatcf';
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/Articulatcf-bold.woff2) format('woff2'),
+        url(fonts/Articulatcf-bold.woff) format('woff'),
+        url(fonts/Articulatcf-bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Articulatcf';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/Articulatcf-medium.woff2) format('woff2'),
+        url(fonts/Articulatcf-medium.woff) format('woff'),
+        url(fonts/Articulatcf-medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Articulatcf';
+    font-style: normal;
     font-weight: 200;
     src: url(fonts/Articulatcf-extralight.woff2) format('woff2'),
         url(fonts/Articulatcf-extralight.woff) format('woff'),
         url(fonts/Articulatcf-extralight.otf) format('opentype');
 }
+
