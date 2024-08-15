@@ -6,7 +6,7 @@ body{min-width: 320px; line-height: 1.5; word-wrap: break-word; word-break: brea
 
 table {border-collapse: collapse; border-spacing: 0;}
 
-body, input, textarea, select, button, table{font-family: 'NotoSansCJKkr', sans-serif; color: #000; font-size: 16px;}
+body, input, textarea, select, button, table{font-family: 'NotoSansKR', sans-serif; color: #000; font-size: 16px;}
 
 fieldset, img{border:0;}
 
