@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NotoSansCJKkr';
+    font-style: normal;
+    font-weight: 900;
+    src: url(fonts/NotoSansCJKkr-Black.woff2) format('font-woff2'),
+        url(fonts/NotoSansCJKkr-Black.woff) format('woff'),
+        url(fonts/NotoSansCJKkr-Black.otf) format('opentype'),
+}
+
+@font-face {
+    font-family: 'NotoSansCJKkr';
+    font-style: normal;
+    font-weight: 700;
+    src: url(fonts/NotoSansCJKkr-Bold.woff2) format('font-woff2'),
+        url(fonts/NotoSansCJKkr-Bold.woff) format('woff'),
+        url(fonts/NotoSansCJKkr-Bold.otf) format('opentype'),
+}
+
+
+@font-face {
+    font-family: 'NotoSansCJKkr';
+    font-style: normal;
+    font-weight: 500;
+    src: url(fonts/NotoSansCJKkr-Medium.woff2) format('font-woff2'),
+        url(fonts/NotoSansCJKkr-Medium.woff) format('woff'),
+        url(fonts/NotoSansCJKkr-Medium.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'NotoSansCJKkr';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/NotoSansCJKkr-Regular.woff2) format('font-woff2'),
+        url(fonts/NotoSansCJKkr-Regular.woff) format('woff'),
+        url(fonts/NotoSansCJKkr-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Articulatcf';
+    font-style: normal;
+    font-weight: 200;
+    src: url(fonts/Articulatcf-extralight.woff2) format('font-woff2'),
+        url(fonts/Articulatcf-extralight.woff) format('woff'),
+        url(fonts/Articulatcf-extralight.otf) format('opentype');
+}
+
