@@ -126,7 +126,7 @@ main section{padding: 176px 0 197px!important;}
 /* section01 */
 #about{position: relative; padding: 165px  0 200px;}
 #about .section01{position: relative;}
-#about .section01::after{content: ''; position: absolute; top:-176px; left:-53px; width: 309px; height: 162px; background: url(../images/img03.png)no-repeat; animation: effect 1.3s 1s alternate ease infinite;}
+#about .section01::after{content: ''; position: absolute; top:-176px; left:-53px; width: 309px; height: 162px; background: url(../images/img03.png)no-repeat; animation: effect 1.3s 1s alternate ease infinite; z-index: -1;}
 #about::after{content: ''; position: absolute; top:123px; right:267px; background: url(../images/img01.png) no-repeat; width: 559px; height: 559px; z-index: -1; animation: effect 1.7s 1.5s alternate ease-in-out infinite;} 
 #about::before{content: ''; position: absolute; top:485px; left:278px; width: 394px; height: 392px; background: url(../images/img02.png) no-repeat; z-index: -1;  animation: effect 1.5s 1s alternate ease-in infinite;}  
 #about .title01{margin-bottom: 35px;}
